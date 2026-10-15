@@ -33,7 +33,7 @@ Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/r
 
 An authentication method is phishing-resistant when it cannot be tricked into giving a valid secret or code to a fake site; NIST calls this verifier impersonation resistance. Qualifying methods bind the credential to the real website's domain: FIDO2/WebAuthn passkeys, hardware security keys and PIV smart cards. SMS codes, one-time password apps and push approvals do not qualify, because a user can be fooled into handing them over or approving them.
 
-Resource: NIST SP 800-63B-4, Digital Identity Guidelines: Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b.html
+Resource: NIST SP 800-63B-4, Digital Identity Guidelines: Authentication and Authenticator Management - https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63B-4.pdf
 
 ## Data
 

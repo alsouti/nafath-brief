@@ -41,4 +41,8 @@ Resource: Royal Decree 6/2022, Personal Data Protection Law - https://decree.om/
 
 ## Misconception in My Track
 
+A common belief is that any multi-factor authentication, such as a password plus an SMS code, stops phishing. This is wrong. A fake site can relay the password and the code to the real service in real time. NIST SP 800-63B-4 defines phishing resistance as the protocol's ability to stop secrets and valid authenticator outputs reaching an impostor without relying on the user's vigilance, and it requires cryptographic authentication. Passwords are not phishing-resistant, and relayable codes do not meet this either. Proof: SP 800-63B-4, Section 3.2.5, Phishing Resistance.
+
 ## Open Question
+
+Do passkeys that sync across a citizen's devices through a cloud account still count as phishing-resistant under NIST SP 800-63B-4? I would also check how account recovery should work when a citizen loses their phone, without creating a phishable fallback.

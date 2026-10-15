@@ -23,9 +23,21 @@ Resource: Request runtime permissions - https://developer.android.com/training/p
 
 ## Networking
 
+DNS over HTTPS (DoH, RFC 8484) sends DNS queries and answers inside an HTTPS connection, so they gain TLS encryption and integrity. For users of the login service, it hides which domain names their device looks up from people on the same network and stops tampering with DNS answers in transit. It does not hide queries from the resolver itself, or the destination IP address, and it does not make a fake website safe.
+
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484
+
 ## Cybersecurity
 
+An authentication method is phishing-resistant when it cannot be tricked into giving a valid secret or code to a fake site; NIST calls this verifier impersonation resistance. Qualifying methods bind the credential to the real website's domain: FIDO2/WebAuthn passkeys, hardware security keys and PIV smart cards. SMS codes, one-time password apps and push approvals do not qualify, because a user can be fooled into handing them over or approving them.
+
+Resource: NIST SP 800-63B-4, Digital Identity Guidelines: Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b.html
+
 ## Data
+
+Oman's Personal Data Protection Law (Royal Decree 6/2022) requires a controller to obtain the person's explicit consent and to tell them in writing, before processing, who is processing their data, why, and what rights they have. The controller must appoint a data protection officer, keep the data confidential, notify the ministry and the person of a breach, and transfer data outside Oman only under the Executive Regulation. Its scope for government bodies should be checked.
+
+Resource: Royal Decree 6/2022, Personal Data Protection Law - https://decree.om/2022/rd20220006/
 
 ## Misconception in My Track
 
